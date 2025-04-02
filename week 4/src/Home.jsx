@@ -11,7 +11,7 @@ const Home = () => {
           <Link to="/about">About Us</Link> 
           <Link to="/contact">Contact</Link>  
           <Link to="/user">User</Link>
-          <Link to="/notfound">Not Found (404)</Link> {/* Link to a non-existent route */}
+          <Link to="/notfound">Not Found (404)</Link> 
         </nav>
       </div>
       <div className='welcome'>Welcome to Our Website!</div>
@@ -22,7 +22,7 @@ const Home = () => {
         We believe in the power of community and knowledge. Our mission is to provide you with the resources and support you need to thrive. Whether you're looking for information, inspiration, or a place to connect with others, you've come to the right place!
       </div>
       <div className="button">
-        <Link to="/signup"> {/* Assuming you have a signup page */}
+        <Link to="/signup"> 
           <button>Join Us</button>
         </Link>
       </div>

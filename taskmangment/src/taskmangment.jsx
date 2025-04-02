@@ -1,5 +1,5 @@
 import { useState } from "react";
-import './task.css'; // Ensure your CSS file is appropriately named
+import './task.css'; 
 import TaskItems from './TaskItem'; // Make sure to import your TaskItems component
 
 export default function TaskApp() {

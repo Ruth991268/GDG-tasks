@@ -13,8 +13,8 @@ export default function App() {
       <Route path="about" element={<About />} />
       <Route path="contact" element={<Contact />} />
       <Route path="user" element={<User />} />
-      <Route path="notfound" element={<NoteFound />} /> {/* Add this route */}
-      <Route path="*" element={<NoteFound />} /> {/* Catch-all for other unknown routes */}
+      <Route path="notfound" element={<NoteFound />} />
+      <Route path="*" element={<NoteFound />} />
     </Routes>
   );
 }

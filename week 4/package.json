@@ -8,14 +8,14 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "predeplay":"npm run build",
-      "deploy": "gh-pages -d dist"
+    "predeplay": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "gh-pages": "^6.3.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^7.3.0"
+    "react-router-dom": "^7.4.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.27",
